@@ -22,9 +22,10 @@ module.exports = (props) => {
       props.download(link);
     }
   };
+  var title = props.title || 'dat'
   return yo`
     <header style=${css(style)} class="dat-header">
-      <div class="dat-header__title">All Dats</div>
+      <div class="dat-header__title">${title}</div>
       <div class="dat-header__actions">
         <div class="dat-button">
           ${button({
@@ -42,4 +43,3 @@ module.exports = (props) => {
     </header>
   `;
 };
-
