@@ -1,6 +1,6 @@
 {
   "name": "dat-header",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a header ui element for dat interfaces",
   "main": "index.js",
   "scripts": {
