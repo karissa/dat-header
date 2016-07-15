@@ -3,7 +3,7 @@
 const encoding = require('dat-encoding');
 const yo = require('yo-yo');
 
-module.exports = function () {
+module.exports = function (props) {
   const keydown = (e) => {
     if (e.keyCode === 13) {
       const link = e.target.value;
